@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="MATCH THE IMAGES TO SCORE!"/>
+            android:text="MATCH THE IMAGES TO SCORE!"
+            android:textColor="@color/teal_700"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
 
 
     </LinearLayout>
@@ -27,52 +31,52 @@
         android:columnCount="3">
         <ImageButton
             android:id="@+id/btn1"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
 
         <ImageButton
             android:id="@+id/btn2"
-            style="@style/MainActivity_Image" />
+            style="@style/SecondActivity_Image" />
 
         <ImageButton
             android:id="@+id/btn3"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn4"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn5"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn6"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn7"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn8"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn9"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn10"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn11"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
         <ImageButton
             android:id="@+id/btn12"
-            style="@style/MainActivity_Image"
+            style="@style/SecondActivity_Image"
             />
 
     </GridLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MainActivity_Image">
+    <style name="SecondActivity_Image">
         <item name="android:src">@drawable/questionmark</item>
         <item name="android:layout_width">87dp</item>
         <item name="android:layout_height">87dp</item>

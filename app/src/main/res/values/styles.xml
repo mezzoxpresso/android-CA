@@ -2,9 +2,12 @@
 <resources>
     <style name="SecondActivity_Image">
         <item name="android:src">@drawable/questionmark</item>
-        <item name="android:layout_width">87dp</item>
-        <item name="android:layout_height">87dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:cropToPadding">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:adjustViewBounds">true</item>
+
     </style>
 </resources>
